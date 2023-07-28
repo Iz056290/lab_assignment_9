@@ -141,7 +141,7 @@ int main(void)
     recordSz = parseData("input.txt", &pRecords);
     printRecords(pRecords, recordSz);
 
-    int hashSize = 10; // You can adjust this size according to your requirements
+    int hashSize = 15; // You can adjust this size according to your requirements
 
     // Create the hash table
     struct HashType* hashTable = (struct HashType*)malloc(sizeof(struct HashType) * hashSize);
